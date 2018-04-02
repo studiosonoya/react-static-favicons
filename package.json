@@ -26,7 +26,7 @@
 	],
 	"license": "MIT",
 	"main": "dist/index.js",
-	"name": "react-static-favicons",
+	"name": "@kuroku/react-static-favicons",
 	"publishConfig": {
 		"access": "public"
 	},

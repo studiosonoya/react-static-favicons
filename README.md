@@ -3,6 +3,12 @@ react-static/favicons
 
 A little helper to make working with [react-static](https://github.com/nozzle/react-static) and [favicons](https://github.com/haydenbleasel/favicons) easier.
 
+Install
+-------
+
+```bash
+yarn add @kuroku/react-static-favicons
+```
 
 Usage
 -----
@@ -12,7 +18,7 @@ Usage
 // static.config.js
 
 
-import ReactStaticFavicons from 'react-static-favicons';
+import ReactStaticFavicons from '@kuroku/react-static-favicons';
 
 // keeping the instance global allows the favicons result to be cached
 const reactStaticFavicons = new ReactStaticFavicons({
