@@ -9,6 +9,8 @@ Usage
 
 
 ```javascript
+// static.config.js
+
 
 import ReactStaticFavicons from 'react-static-favicons';
 
@@ -28,10 +30,6 @@ const reactStaticFavicons = new ReactStaticFavicons({
 		}
 	},
 });
-
-```
-
-```javascript
 
 // react-static config
 export default {
