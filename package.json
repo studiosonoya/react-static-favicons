@@ -27,6 +27,9 @@
 	"license": "MIT",
 	"main": "dist/index.js",
 	"name": "react-static-favicons",
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/KurokuLabs/react-static-favicons.git"
@@ -37,5 +40,5 @@
 		"test": "echo 'no tests'; exit 0"
 	},
 	"types": "dist/index.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.3"
 }
