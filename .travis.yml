@@ -9,5 +9,6 @@ deploy:
   provider: npm
   email: npm@kuroku.co
   api_key: $NPM_TOKEN
+  skip_cleanup: true
   on:
     tags: true
