@@ -1,0 +1,40 @@
+{
+	"author": "Kuroku Labs",
+	"bugs": {
+		"url": "https://github.com/KurokuLabs/react-static-favicons/issues"
+	},
+	"dependencies": {
+		"favicons": "^5.0.0",
+		"react": "^16.3.0",
+		"sax": "^1.2.4"
+	},
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^9.6.1",
+		"@types/react": "^16.1.0",
+		"@types/sax": "^1.0.0",
+		"typescript": "^2.8.1"
+	},
+	"files": [
+		"dist/"
+	],
+	"keywords": [
+		"react",
+		"react-static",
+		"favicon",
+		"favicons"
+	],
+	"license": "MIT",
+	"main": "dist/index.js",
+	"name": "react-static-favicons",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KurokuLabs/react-static-favicons.git"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublish": "yarn build"
+	},
+	"types": "dist/index.d.ts",
+	"version": "0.0.1"
+}
