@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+before_install:
+  - npm i -g yarn makeshift && makeshift -s @kuroku -r https://registry.npmjs.org
+install:
+  yarn install
+deploy:
+  provider: npm
+  email: npm@kuroku.co
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
