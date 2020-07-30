@@ -4,7 +4,7 @@
 		"url": "https://github.com/KurokuLabs/react-static-favicons/issues"
 	},
 	"dependencies": {
-		"favicons": "^5.0.0",
+		"favicons": "^6.2.0",
 		"react": "^16.3.0",
 		"sax": "^1.2.4"
 	},
